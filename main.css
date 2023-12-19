@@ -1,0 +1,146 @@
+
+body {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e8e8e8;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.title {
+    font-family: "Arial", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 3px;
+    color: black;
+
+}
+
+.overview {
+    font-family: 'Merriweather', serif;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-family: "Arial", sans-serif;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.regions-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.quick-access {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+    color: black;
+
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    line-height: 24px;
+}
+
+.photo-caption{
+    font-size: 12px;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: none;
+
+}
+
+.west-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.south-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.midwest-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.northeast-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.graph-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.conclusion {
+    margin-top: 30px;
+}
+
+@media (max-width: 900px) {
+    .regions-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .west-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .south-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .midwest-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .northeast-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .graph-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
